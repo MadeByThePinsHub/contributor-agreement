@@ -1,3 +1,12 @@
 {
-   "signedContributors": []
+  "signedContributors": [
+    {
+      "name": "AndreiJirohHaliliDev2006",
+      "id": 34998342,
+      "comment_id": 827478959,
+      "created_at": "2021-04-27T09:56:23Z",
+      "repoId": 361154339,
+      "pullRequestNo": 1
+    }
+  ]
 }

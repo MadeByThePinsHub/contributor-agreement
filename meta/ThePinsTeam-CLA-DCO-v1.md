@@ -2,7 +2,7 @@
 
 This document containing both the [Linux DCO](Linux-DCO.md) and our [Individual CLA](CLA-Individual-v1.md) for open-source contributors of our open-source projects at The Pins Team. If you have any questions, please read [the FAQs in the Contributor Agreement repo's README](../README.md).
 
-By replying `I have agreed to both the DCO and The Pins Team's Individual CLA` to an merge request comment by our robots, your signature will be added to somewhere in the Contributor Agreement repo and this signature cannot be removed. Your signature to both CLA and DCO will be also your signature to our [Community Code of Conduct](../CODE_OF_CONDUCT.md).
+By replying `@recaptimebot sign the CLA` to an merge request comment by our robots, your signature will be added to somewhere in the Contributor Agreement repo and this signature cannot be removed. Your signature to both CLA and DCO will be also your signature to our [Community Code of Conduct](../CODE_OF_CONDUCT.md).
 
 ## Linux DCO
 

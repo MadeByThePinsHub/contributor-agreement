@@ -23,7 +23,7 @@ jobs:
           # branch should not be protected
           branch: 'main'
           allowlist: ThePinsTeam,bot*
-          custom-notsigned-prcomment: "Thanks for contributing into our OSS Projects. By signing this CLA, you also agree to our [general contributing guidelines](https://rtapp.tk/general-contributing-guidelines) and any per-project contributing guidelines on the `CONTRIBUTING.md`. Your CLA signature will also server as your agreement to our [Community Code of Conduct](https://rtapp.tk/community-codeofconduct)."
+          custom-notsigned-prcomment: "Thanks for contributing into our OSS Projects. By signing this CLA, you also agree to our general contributing guidelines (https://rtapp.tk/general-contributing-guidelines) and any per-project contributing guidelines on the `CONTRIBUTING.md`. Your CLA signature will also server as your agreement to our Community Code of Conduct (https://rtapp.tk/community-codeofconduct)."
           custom-allsigned-prcomment: '✔ Looks liKe everything is all set! You'll be notofoed if we found any missing singatures.'
           custom-pr-sign-comment: 'I have agreed to both the DCO and The Pins Team's Individual CLA'
          #below are the optional inputs - If the optional inputs are not given, then default values will be taken

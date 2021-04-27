@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: "Signature Checker CI"
-        if: (github.event.comment.body == '@recaptimebot recheck' || github.event.comment.body == '@recaptimebot sign the CLA') || github.event_name == 'pull_request_target'
+        if: (github.event.comment.body == 'recheck' || github.event.comment.body == '@recaptimebot recheck' || github.event.comment.body == '@recaptimebot sign the CLA') || github.event_name == 'pull_request_target'
         # Beta Release
         uses: cla-assistant/github-action@v2.1.2-beta
         env:
@@ -23,8 +23,8 @@ jobs:
           # branch should not be protected
           branch: 'main'
           allowlist: ThePinsTeam,bot*
-          custom-notsigned-prcomment: "Thanks for contributing into our OSS Projects. By signing this CLA, you also agree to our general contributing guidelines (https://rtapp.tk/general-contributing-guidelines) and any per-project contributing guidelines on the `CONTRIBUTING.md`. Your CLA signature will also server as your agreement to our Community Code of Conduct (https://rtapp.tk/community-codeofconduct)."
-          custom-allsigned-prcomment: "✔ Looks liKe everything is all set! You'll be notofoed if we found any missing singatures."
+          custom-notsigned-prcomment: "Thanks for contributing into our OSS Projects. By signing this CLA, you also agree to our general contributing guidelines (https://rtapp.tk/general-contributing-guidelines) and any per-project contributing guidelines on the `CONTRIBUTING.md`. Your CLA signature will also server as your agreement to our Community Code of Conduct (https://rtapp.tk/community-codeofconduct).\n\nTo continue, we may ask you to sign our unified CLA (https://rtapp.tk/oss-cla-unified) by commenting the following string below."
+          custom-allsigned-prcomment: "✔ Looks liKe everything is all set! You'll be notified if we found any missing singatures. As usual, just comment `@RecapTimeBot recheck` if you need to check your status."
           custom-pr-sign-comment: "@recaptimebot sign the CLA"
          #below are the optional inputs - If the optional inputs are not given, then default values will be taken
           #remote-organization-name: enter the remote organization name where the signatures should be stored (Default is storing the signatures in the same repository)
